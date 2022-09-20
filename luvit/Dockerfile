@@ -24,7 +24,7 @@ FROM        --platform=$TARGETOS/$TARGETARCH debian:stable-slim
 
 LABEL       author="GaciGnida" maintainer="gacignida@pterodactyl.io"
 
-LABEL       org.opencontainers.image.source="https://github.com/pterodactyl/yolks"
+LABEL       org.opencontainers.image.source="https://github.com/GaciGnida/yolks"
 LABEL       org.opencontainers.image.licenses=MIT
 
 ENV          DEBIAN_FRONTEND noninteractive
